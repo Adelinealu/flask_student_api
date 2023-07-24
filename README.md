@@ -19,5 +19,6 @@ Get a student by ID: curl -X GET http://localhost:5000/students/<id>
 Add a new student: curl -X POST -H "Content-Type: application/json" -d '{"name":"John","age":20,"course":"CS"}' http://localhost:5000/students
 Update a student: curl -X PUT -H "Content-Type: application/json" -d '{"name":"Updated","age":22,"course":"Math"}' http://localhost:5000/students/<id>
 Delete a student: curl -X DELETE http://localhost:5000/students/<id>
+
 Note: This API is for educational purposes and not for production use. Secure your database credentials before deployment.
 
