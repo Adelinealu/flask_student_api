@@ -12,9 +12,6 @@ db_config = {
 
 db = mysql.connector.connect(**db_config)
 
-# Rest of your code...
-
-
 @app.route('/students', methods=['GET'])
 def get_students():
     cursor = db.cursor()
