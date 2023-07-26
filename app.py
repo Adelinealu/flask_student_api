@@ -2,16 +2,6 @@ from flask import Flask, request, jsonify
 import mysql.connector
 
 app = Flask(__name__)
-
-# db =mysql.connector.connect(
-#     host="localhost",
-#     user="root",
-#     password="new password",
-#     database="students"
-# )
-
-# app = Flask(__name__)
-
 db_config = {
     'user': 'new_user',
     'password': 'new_password',
